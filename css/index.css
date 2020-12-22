@@ -1,0 +1,562 @@
+*{
+	text-decoration: none;
+}
+
+
+html,body{
+margin: 0;
+padding: 0;
+font-family: roboto, sans-serif,'PT Sans' ;
+background-repeat: no-repeat;
+width: 100%;
+height: 100%;
+background: #1b1b1b;
+}
+/* ---- reset ---- */ 
+
+ /* ---- particles.js container ---- */ 
+ #particles-js{
+  position:absolute;
+  width: 100%; 
+  height: 100%; 
+  
+}
+   /* ---- stats.js ---- */ 
+
+
+.container{
+	width: 90%;
+	 max-width: 95%;
+}
+
+
+.banner1{
+	background: linear-gradient(#000000,transparent), url(../images/banner1.jpg) no-repeat ;
+	background-attachment: fixed;
+	background-size:cover;
+	padding-top: 10px;
+	padding-bottom:600px;
+	height:100vh ;
+
+
+}
+.banner1 .row .m6 img{
+	width: 20px;
+	height: 20px;
+}
+
+
+
+nav {
+  display: flex;
+  width: 100%;
+}
+
+img.nav-logo {
+    width: 100px;
+    border: 2px solid #fff;
+    padding: 20px;
+	border-radius: 50%;
+	background: black;
+}
+nav>* {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tagline p {
+    background: #ffe500;
+    color: #000;
+    padding: 5px 10px;
+}
+.tab{
+	border-bottom: 1px solid white;
+}
+nav .active {
+    /* border-bottom: 2px solid #78bf35; */
+    color: #ffe500;
+    font-weight: bold;
+    padding-bottom: 2px;
+}
+/* nav ul li:hover{
+	border-bottom: 2px solid #78bf35;
+	color: #78bf35;
+} */
+nav ul li {
+    border-right: 2px solid;
+    padding: 0;
+}
+
+nav ul li:last-child {
+    border: none;
+}
+nav ul li:hover a{
+    /* border-bottom: 2px solid #78bf35; */
+    color: #ffe500;
+}
+nav ul li a img:hover{
+	border-bottom:none;
+}
+
+nav ul li a {
+    padding:0 10px!important;
+    line-height: initial;
+}
+ .fa-bars{
+	display: none;
+}
+.sidebar{
+	display: none;
+}
+.banner1 .mouse{
+	position: absolute;
+	top: 600px;
+	left: 49%;
+}
+
+.tagline {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.tagline b{
+	border-radius: 10px;
+	padding: 2px 15px;
+}
+
+/*
+.about {
+	background: url(../images/sidebarbanner.png) no-repeat ;
+	background-attachment: fixed;
+	background-size: cover;
+	
+
+}
+*/
+
+.angle{
+        background: #1b1b1b;
+         width: 100%;
+        height: 40px;       
+        position: relative;
+
+    }
+
+    .angle:before{        
+        width: 50%;
+        height: 100px;
+        content: '';
+        position: absolute;
+        left: 0;
+        top: -60px;
+        transform: skewY(5deg);
+         background: #1b1b1b;
+
+    }
+     .angle:after{        
+        width: 50%;
+        height: 100px;
+        content: '';
+        position: absolute;
+        right: 0;
+        top: -60px;
+        transform: skewY(-5deg);
+         background: #1b1b1b;
+    }
+
+
+
+     .mission{
+    	margin-top: 250px;
+
+    }
+    
+    .mission .leftLine{
+    	width: 200px;
+    	height: 5px;
+    	background-color: black;
+
+
+    }
+    
+    button{
+    	border: 2px solid #c0b93b;
+    	background-color: transparent;
+    	border-radius: 10px;
+    	color: black;
+    	padding: 5px 10px;
+    }
+    button:hover{
+    	background-color: #c0b93b;
+    	color: white;
+    }
+
+
+.news{
+	background: linear-gradient(#000000,transparent), url(../images/banner2.jpg) no-repeat ;
+	background-attachment: fixed;
+	background-size: cover;
+	transform: skewY(-5deg);
+	margin-top: 100px;
+
+
+
+}
+
+.news .container{
+	color: white;
+	transform: skewY(5deg);
+	padding-top: 100px;
+	padding-bottom: 100px;
+
+}
+.news a, .news button{
+	color: white;
+}
+
+
+.productlist{
+	background: linear-gradient(#000000,transparent), url(../images/banner5.jpg) no-repeat ;
+	background-attachment: fixed;
+	background-size: cover;
+	transform: skewY(-5deg);
+	margin-top: 100px;
+
+
+
+}
+.productlist .container{
+	color: white;
+	transform: skewY(5deg);
+	padding-top: 100px;
+	padding-bottom: 100px;
+
+}
+.productlist a, .productlist button{
+	color: white;
+}
+.productlist p{
+	width: 60%;
+}
+
+
+.sellingProduct{
+	margin-top: 150px;
+
+}
+
+.sellingProduct> .container{
+	width: 60%;
+	margin-top: 50px;
+
+}
+.sellingProduct .collapsible-body ul:not(.browser-default) li {
+    list-style-type: disc;
+}
+
+.sellingProduct .collapsible-body ul:not(.browser-default) {
+	padding-left: 30px;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+.sellingProduct .collapsible-body ul li{
+	text-align:left!important;
+}
+
+/*
+.sellingProduct .carousel{
+	
+	height: 600px;
+}
+.carousel .carousel-item {
+width:300px !important;
+margin-top: -150px;
+
+}
+*/
+
+.directors> .container{
+	padding-top: 100px;
+	padding-bottom: 50px;
+}
+
+
+.directors span{
+	width: 180px;
+	height: 70px;
+	margin-bottom: 12px;
+
+}
+.directors h5{
+	padding: 0;
+
+}
+
+.directors .rightSide blockquote{
+  border-right: 5px solid #78bf35;
+  padding-right: 1.5rem;
+  border-left:none;
+  padding-left: none;
+}
+.directors blockquote{
+  border-left: 5px solid #78bf35;
+}
+
+
+
+.about ul:not(.browser-default) {
+	padding-left: 30px;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+
+
+.about ul:not(.browser-default) li {
+    list-style-type: disc;
+}
+
+footer{
+	background:linear-gradient(#000000,transparent), url(../images/footer.jpg) no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	
+
+}
+footer> .container{
+	padding-top: 50px;
+	padding-bottom: 10px;
+}
+
+footer a{
+	color: white;
+}
+footer a:hover{
+	color: black;
+}
+footer .link{
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+
+}
+
+footer  ul li i{
+	padding-right: 10px;
+}
+h5{
+	padding-top: 50px;
+}
+
+
+.productsPage ul:not(.browser-default) li {
+    list-style-type: disc;
+}
+
+.productsPage ul:not(.browser-default) {
+	padding-left: 30px;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+.map{
+    position: relative;
+}
+.map .globally{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    display: hidden;
+}
+
+.map .underdeveloped{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    display: hidden;
+}
+
+
+
+@media(max-width: 1024px){
+	 .fa-bars{
+	 	position: absolute;
+	 	top: 50px;
+	 	right: 50px;
+		display: block;
+		z-index: 101;
+		cursor: pointer;
+	
+	}
+	.banner1 .mouse{
+	position: absolute;
+	top: 100%;
+	left:49%;
+	}
+
+	/* .tagline {
+	position: absolute;
+	top: 300px;
+	left: 20px;
+	right:20px;
+	}  */
+	.banner1 .mouse{
+	position: absolute;
+	top: 500px;
+	left: 49%;
+}
+	 
+	header nav{
+	 	display: none;
+
+	}
+	.sidebar{
+	display: block;
+	width: 45%;
+	height: 100%;
+	background-color: black;
+	position: absolute;
+	top: 0;
+	padding: 10px 30px 10px 30px;
+	display: none;
+	z-index: 100;
+	}
+    .sidebar ul{
+		margin-top: 50px;
+	}
+	.sidebar ul li{
+		margin-top: 10px;
+		margin-bottom: 5px;
+	}
+	.active{	
+	color: #78bf35!important;
+	font-weight: bold;
+
+	}
+	.sidebar .container img {
+	z-index: 102;
+	margin-top: 80px;
+	width: 200px;
+	height: 80px;
+	text-align: center;
+
+
+	}
+	.sidebanner img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -5;
+	width: 100%;
+	max-height: 300px;
+
+	
+	}
+}
+
+
+@media(max-width: 720px){
+	.sidebar{
+	width: 100%;
+	
+	}
+    .fa-bars{
+	 	position: absolute;
+	 	top: 10px;
+	 	right: 10px;
+	
+	}
+
+.sidebar .container img {
+	z-index: 102;
+	margin-top: 100px;
+
+}
+.sidebar .icons a{
+	margin: 5px;
+}
+
+
+.sidebanner img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -5;
+	width: 100%;
+	max-height: 200px;
+
+	
+}
+.mission{
+    	margin-top: 50px;
+
+    }
+    .productlist p{
+	width: 100%;
+	}
+
+/*
+	.carousel .carousel-item {
+width:300px !important;
+margin-top: -30px;
+
+	}
+	.sellingProduct .carousel{
+	
+	height: 300px;
+	}
+
+*/
+	footer{
+	background-image: none;
+	width: 100%;
+	height: auto;
+
+	}
+	footer h5{
+	padding: 0;
+
+	}
+
+
+	footer .link{
+	border-left: none;
+	border-right:none;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+	
+
+	}
+	footer .m4 button{
+	margin-bottom: 10px;
+	}
+	
+ .line2{
+	position: relative;
+	bottom: -30px;
+	left: 150px;
+	}
+	.banner1 .mouse{
+	position: absolute;
+	top: 90%;
+	left:47%;
+	}
+
+	.sellingProduct >.container{
+	width: 90%;
+	margin-top: 50px;
+
+	}
+
+
+	.directors .s12 p{
+	padding-top:0;
+
+	}
+    .banner1 .mouse{
+	top: 400px;
+}
+
+}
+
