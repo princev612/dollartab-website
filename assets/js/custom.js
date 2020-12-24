@@ -176,12 +176,12 @@ $(document).ready(function(){
       // focusOnSelect: true
   });
    // shops banner slider
-   $('.offers-main-baner-slider').slick({
+   $('.offers-coupons').slick({
     autoplay: true,
-    dots: false,
-    slidesToShow: 3,
+    dots: true,
+    slidesToShow: 4,
     slidesToScroll: 2,
-    arrows:true,
+    arrows:false,
     infinite: true,
     speed: 500,
     cssEase: 'linear',
