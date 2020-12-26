@@ -1,9 +1,7 @@
 // Wait for window load
 // loader
-$(window).load(function() {
-    $(".loader").delay(2000).fadeOut("slow");
+$(window).on("load", function () { 
   $("#overlayer").delay(2000).fadeOut("slow");
-
 });
 // loader
 
