@@ -72,11 +72,24 @@
     .flx-box {
         justify-content: center!important;
     }
+    footer {
+        text-align: center;
+    }
+    footer .flex-x-center {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
     .product-img-box p.product-code, .pull-right.product-icons {
         text-align: center;
     }
     .hide-mx-480{
         display: none!important;
+    }
+    footer .footer-logo {
+        margin: -100px auto 0;
+    }
+    .top-header{
+        justify-content: center!important;
     }
     .show-mx-480{
         display: block!important;
@@ -358,14 +371,17 @@ section.deal-offers .row {
         z-index: 1000;
         color: #000;
         width: 100%;
-        padding: 0;
-        width: 320px;
-        left: -500px;
+        padding: 20px;
+        width: 250px;
+        left: -270px;
         transition: .3s ease-in-out;
         height: 100vh;
         overflow-y: auto;
         overflow-x: hidden;
         box-shadow: 1px 1px 20px 0 rgba(0,0,0,.5);
+    }
+    header .side-nav ul li {
+        padding: 7px 0;
     }
     header .side-nav .top-side-bar .flx-box {
         justify-content: space-between!important;
@@ -482,18 +498,21 @@ section.deal-offers .row {
         text-align: center;
     } */
     .main-pop-up .second-card .flx-box a {
-        /* background: #e3e3e3; */
-        border: 2px solid black;
+        background: #ffffff;
+        border: 2px solid white;
         padding: 10px 27px;
         color: #000;
-        display: inline-flex;
-        margin: 20px 5px;
+        border-radius: 50px;
+        width: 100%;
+        display: block;
+        margin: 20px 5px 0;
+        /* margin: 20px 5px; */
         justify-content: center;
         align-items: center;
     }
     .main-pop-up .flx-box {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-between!important;
     }
     .main-pop-up {
         position: relative;
@@ -522,7 +541,7 @@ section.deal-offers .row {
         text-align: center;
         box-shadow: 0px 8px 20px 0 rgba(0,0,0,.2);
         padding: 20px;
-        background: #e4e4e4;
+        background: #ffc107;
     }
     .shop-page-container .shop-details {
         background: #fff;

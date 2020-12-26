@@ -12,25 +12,6 @@ $(document).ready(function(){
   $('[data-toggle="tooltip"]').tooltip();
 });
 
-// To hide a sidebar when the user clicks outside of it  
-// $(document).mouseup(function(e) 
-// {
-//     var container = $(".side-nav");
-//     if (!container.is(e.target) && container.has(e.target).length === 0) 
-//     {
-//         container.css("left", "-500px");
-//     }
-// });
-// To hide a sidebar when the user clicks outside of it  
-// $(document).mouseup(function(e) 
-// {
-//     var container = $("#login-sign-box");
-//     if (!container.is(e.target) && container.has(e.target).length === 0) 
-//     {
-//         container.fadeOut();
-//     }
-// });
-
 
 
  // nav toggle
@@ -39,7 +20,7 @@ $(document).ready(function(){
     $(".side-nav").css("left", "0");
   });
   $("header .side-nav .top-side-bar .back").click(function(){
-    $(".side-nav").css("left", "-500px");
+    $(".side-nav").css("left", "-270px");
   });
 
   // customer account menue tggle
@@ -47,8 +28,18 @@ $(document).ready(function(){
     $(".side-nav").css("left", "0");
   });
   $("header .side-nav .top-side-bar .back").click(function(){
-    $(".side-nav").css("left", "-500px");
+    $(".side-nav").css("left", "-270px");
   });
+
+// To hide a sidebar when the user clicks outside of it  
+$(document).mouseup(function(e) 
+{
+    var container = $("header .side-nav ");
+    if (!container.is(e.target) && container.has(e.target).length === 0) 
+    {
+        container.css("left", "-270px");
+    }
+});
 
  // product quantity increase decrease
  function increaseValue() {
@@ -265,7 +256,8 @@ $(document).ready(function(){
     $('.signin-slider').slick({
         autoplay: true,
         infinite: true,
-        dots: false,
+        dots: true,
+        arrows:false,
         speed: 500
     });
     $('.offer-slider-1').slick({
