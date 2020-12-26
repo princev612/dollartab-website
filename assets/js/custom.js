@@ -1,7 +1,7 @@
 // Wait for window load
 // loader
 $(window).on("load", function () { 
-  $("#overlayer").delay(2000).fadeOut("slow");
+  $("#overlayer").delay(1000).fadeOut("slow");
 });
 // loader
 
@@ -124,7 +124,8 @@ function decreaseValue() {
           $("#signup-box").stop().slideDown();
           $("#login-email-box").hide();
           $("#forgot-pass-box").hide();
-          $("#login-otp-box").stop().hide();
+          $("#login-otp-box").stop().hide();          
+          $("#login-sign-box").stop().fadeIn();
         })
 
 

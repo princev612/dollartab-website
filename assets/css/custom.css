@@ -26,6 +26,7 @@ body {
     width: 100%; 
     height: 100%; 
     z-index: 1;
+    top: 0;
     
   }
   .top-partiner-bg{
@@ -114,7 +115,7 @@ span.active-text {
 .main-pop-up {
     position: relative;
     width: 450px;
-    left: 58%;
+    left: 60%;
     background: #fff;
     padding: 20px;
     top: 50%;
@@ -130,6 +131,9 @@ span.active-text {
     box-shadow: 0px 8px 20px 0 rgba(0,0,0,.2);
     padding: 20px;
     background:#ffe500;
+}
+.main-pop-up .second-card .signin-slider {
+    margin-bottom: 0!important;
 }
 .main-pop-up h4 {
     font-size: 24px;
@@ -163,6 +167,7 @@ span.active-text {
 }
 .main-pop-up form button:hover {
     background:#ffc107;
+    color: #000;
     border-radius: 20px!important;
 }
 .social-links ul li a {
@@ -1305,6 +1310,7 @@ footer {
     padding: 5px 10px;
     min-width: 125px;
     display: block;
+    text-align: center;
 }
 .footer-links li a:hover {
     color: #fff!important;
