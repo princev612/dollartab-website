@@ -364,22 +364,7 @@ section.deal-offers .row {
     header .side-nav hr {
         margin: 10px 0;
     }
-    header .side-nav {
-        top: 0;
-        position: fixed;
-        background: #fff;
-        z-index: 1000;
-        color: #000;
-        width: 100%;
-        padding: 20px;
-        width: 250px;
-        left: -270px;
-        transition: .3s ease-in-out;
-        height: 100vh;
-        overflow-y: auto;
-        overflow-x: hidden;
-        box-shadow: 1px 1px 20px 0 rgba(0,0,0,.5);
-    }
+    
     header .side-nav ul li {
         padding: 7px 0;
     }

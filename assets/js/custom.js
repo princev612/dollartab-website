@@ -15,18 +15,18 @@ $(document).ready(function(){
  // nav toggle
 
   $("header .fa-bars").click(function(){
-    $(".side-nav").css("left", "0");
+    $(".side-nav").css("left", "-20px");
   });
   $("header .side-nav .top-side-bar .back").click(function(){
-    $(".side-nav").css("left", "-270px");
+    $(".side-nav").css("left", "-315px");
   });
 
   // customer account menue tggle
   $("#acc-menu-btn").click(function(){
-    $(".side-nav").css("left", "0");
+    $(".side-nav").css("left", "-20px");
   });
   $("header .side-nav .top-side-bar .back").click(function(){
-    $(".side-nav").css("left", "-270px");
+    $(".side-nav").css("left", "-315px");
   });
 
 // To hide a sidebar when the user clicks outside of it  
