@@ -158,14 +158,14 @@ nav ul li a {
     }
     
     button{
-    	border: 2px solid #c0b93b;
+    	border: 2px solid #fff;
     	background-color: transparent;
     	border-radius: 10px;
     	color: black;
     	padding: 5px 10px;
     }
     button:hover{
-    	background-color: #c0b93b;
+    	background-color: #fece08;
     	color: white;
     }
 
@@ -282,11 +282,6 @@ margin-top: -150px;
 
 
 
-.about ul:not(.browser-default) {
-	padding-left: 30px;
-	margin-top: 10px;
-	margin-bottom: 15px;
-}
 
 
 .about ul:not(.browser-default) li {

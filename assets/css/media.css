@@ -58,9 +58,7 @@
         justify-content: center;
     }
     .my-account-page .h-center-card {
-        /* margin-top: 23px; */
-        padding: 0;
-        padding-top: 50px;
+        padding: 20px;
     }
     .product-page-container .shop-details ul.ratings {
         text-align: center;
@@ -237,6 +235,17 @@
 }
 
 @media screen and (max-width: 768px) {
+    .table-responsive {
+        width: 100%;
+        margin-bottom: 15px;
+        overflow-y: hidden;
+        overflow-x: auto;
+        -ms-overflow-style: -ms-autohiding-scrollbar;
+        border: none;
+    }
+   .h-center-card .table-responsive {
+       min-width:fit-content;
+    }
     .follow.btn {
         /* BACKGROUND: RED; */
         /* background: #ff8000; */
@@ -285,10 +294,7 @@ section.deal-offers .row {
         border-left: none;
         border-bottom: 3px solid #ff8000;
     }
-    .my-account-page .h-center-card {
-        padding-top: 50px;
-        width: 100%;
-    }
+   
     
     .my-account-page .h-center-card h1.page-heading {
         font-size: 20px;

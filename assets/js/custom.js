@@ -10,7 +10,10 @@ $(document).ready(function(){
   $('[data-toggle="tooltip"]').tooltip();
 });
 
-
+$(".sideways ul li").click(function(){
+  $(this).addClass("active");
+  $(".sideways ul li").removeClass("active");
+})
 
  // nav toggle
 
@@ -169,8 +172,8 @@ $(document).ready(function(){
    $('.offers-coupons').slick({
     autoplay: true,
     dots: true,
-    slidesToShow: 4,
-    slidesToScroll: 2,
+    slidesToShow: 3,
+    slidesToScroll: 1,
     arrows:false,
     infinite: true,
     speed: 500,
@@ -182,8 +185,8 @@ $(document).ready(function(){
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 3,
-          slidesToScroll: 2,
+          slidesToShow: 2,
+          slidesToScroll: 1,
           infinite: true,
           dots: true
         }
@@ -237,7 +240,7 @@ $(document).ready(function(){
     });
         //Main Product Imgages slider
         $('.product-img-slider').slick({
-          autoplay: false,
+          autoplay: true,
           arrows:false,
           dots: true,
           infinite: true,
@@ -275,8 +278,9 @@ $(document).ready(function(){
     });
 
     // popular products
-    $('.slides-products .slider').slick({
-      autoplay: false,
+    $('.product-card-slider').slick({
+      autoplay: true,
+      arrows:false,
       dots: true,
       infinite: true,
       speed: 500,
