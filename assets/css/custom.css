@@ -8,6 +8,25 @@ html {
 .block.block-comment:nth-child(odd){
     background: red;
 }
+.coupon-container.img-container img {
+    border-radius: 20px;
+    /* width: 100%; */
+}
+
+.coupon-container.img-container {
+    position: relative;
+}
+.coupon-container.img-container .coupon-brief .coupon-title{
+    font-weight: bold;
+}
+.coupon-container.img-container .coupon-brief {
+    position: absolute;
+    top: 20%;
+    right: 10%;
+    width: 53%;
+    text-align:left;
+    /* background: red; */
+}
 body {
     box-sizing: border-box;
     margin: 0;

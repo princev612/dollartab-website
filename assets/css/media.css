@@ -72,7 +72,7 @@
     .flx-box {
         justify-content: center!important;
     }
-    footer {
+    footer p{
         text-align: center;
     }
     footer .flex-x-center {
@@ -237,6 +237,22 @@
 }
 
 @media screen and (max-width: 768px) {
+    .coupon-container.img-container .coupon-brief {
+        position: static;
+        text-align:left;
+        /* background: red; */
+        width: 100%;
+    }
+    .coupon-container.img-container{
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      max-width: 400px;
+      margin: 0 auto;
+     }
+    .coupon-container.img-container img{
+       display: none;
+    }
     .top-partiner-bg.home-page{
         height: auto;
         width: 100%;
