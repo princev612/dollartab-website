@@ -12,7 +12,35 @@ html {
     border-radius: 20px;
     /* width: 100%; */
 }
-
+.brd-black{
+    border: 2px solid #000;
+}
+.brd-black:hover{
+    border: none;
+}
+.my-account-page .h-center-card {
+    min-height: 100vh;
+}
+.coupon-box {
+    background: #ffffff;
+    color: #000;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    min-height: 185px;
+}
+.coupon-box  p.add {
+    min-height: 60px;
+}
+.coupon-box  ul.d-flex.list-inline {
+    background: #fece08;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 0;
+}
+.coupon-box .coupon-title{
+    font-weight: bold;
+}
 .coupon-container.img-container {
     position: relative;
 }

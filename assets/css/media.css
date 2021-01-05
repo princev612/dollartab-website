@@ -243,8 +243,11 @@
         /* background: red; */
         width: 100%;
     }
+    .my-account-page .h-center-card {
+        min-height: auto;
+    }
     .coupon-container.img-container{
-      background-color: #fff;
+      background-color: #dac400;
       padding: 20px;
       border-radius: 10px;
       max-width: 400px;
