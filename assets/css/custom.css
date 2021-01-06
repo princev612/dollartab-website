@@ -80,8 +80,11 @@ body {
 	background: #000 ;
     width: 100%;
 }
+.offers-coupons .coupon-box {
+    width: 95%;
+}
 .top-partiner-bg.home-page{
-    height:100vh ;
+    height:auto;
     width: 100%;
 }
 /* pop ups */
